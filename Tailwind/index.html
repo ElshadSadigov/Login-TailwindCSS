@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ba035c055c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>LOGIN</title>
+</head>
+<body class="w-full flex justify-center items-center h-full bg-pink-600 h-screen">
+    <div class="w-2/3 h-96  flex rounded-xl overflow-hidden">
+        <div id="left" class="w-1/2 flex flex-col justify-around items-center">
+            <span class="text-4xl font-bold uppercase font-serif text-white">Hello guys.</span>
+            <div class="">
+                <span class="text-sm font-serif text-white">Login with social media</span>
+                <div class="my-1 flex justify-center">
+                    <a href="#"><i class="fa-brands fa-facebook-f bg-blue-900 w-7 py-2 text-center rounded-full text-white text-xs"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter bg-blue-900 w-7 py-2 text-center rounded-full text-white mx-1 text-xs"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="w-1/2 flex flex-col items-center py-10 bg-blue-600">
+            <span class="font-bold text-2xl uppercase text-white font-serif">Login</span>
+            <div class="pt-7">
+                <div>
+                    <div class="flex flex-col my-2">
+                        <label for="userName" class="text-sm text-white">User Name:</label>
+                        <input id="userName" type="text" class="rounded-sm text-sm px-2 py-1" placeholder="sv.elshad@gmail.com">
+                    </div>
+                    <div class="flex flex-col my-2">
+                        <label for="passWord" class="text-sm text-white">PassWord:</label>
+                        <input id="passWord" type="password" class="rounded-sm text-sm px-2 py-1 " placeholder="********">
+                    </div>
+                </div>
+                <div class="w-full flex justify-center mt-8">
+                    <button class="border-2 w-20 font-bold uppercase text-xl bg-white rounded-2xl">Goo</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
